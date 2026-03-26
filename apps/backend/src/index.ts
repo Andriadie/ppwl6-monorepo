@@ -3,7 +3,7 @@ import { cors } from "@elysiajs/cors";
 import { swagger } from "@elysiajs/swagger";
 import { PrismaClient } from "./generated/prisma/client";
 import { prisma } from '../prisma/db';
-import type { ApiResponse, HealthCheck } from "shared";
+import type { ApiResponse, HealthCheck, User } from "shared";
 
 
 const app = new Elysia()
